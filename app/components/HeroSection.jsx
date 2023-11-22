@@ -30,7 +30,7 @@ const HeroSection = () => {
       speed={50}
       repeat={Infinity}
     /></h1> 
-<p className='text-[#ADB7BE] text-base sm:text-lg lg:text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis cupiditate tenetur nemo numquam!</p> 
+<p className='text-[#ADB7BE] text-base sm:text-lg lg:text-xl'>I've had the honor to work as a front end web developer for several years. Currently, I'm looking to undertake a challenging role that can help me evolve</p> 
 <div>
     <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-r from-yellow-300 to bg-yellow-600 hover:bg-slate-200'>Hire Me</button>
     <button className='px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-r from-yellow-300 to bg-yellow-600 hover:bg-slate-800 text-white mt-3'
@@ -49,7 +49,7 @@ const HeroSection = () => {
     height={300}
     style={{
       objectFit: "cover",
-      borderRadius: "500px", //👈 and here you can select border radius
+      borderRadius: "500px",
     }}
     />
    </div>
