@@ -2,19 +2,20 @@
 import React, { useTransition, useState } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
-import computer from '@/app/public/computer/jpeg'
+import computer from '../public/computer.jpeg'
+
 const TAB_DATA = [
   {
     title: "Skills",
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
+        <li>Html</li>
+        <li>Css</li>
         <li>JavaScript</li>
-        <li>React</li>
+        <li>Reactjs</li>
+        <li>Tailwind</li>
+        <li>Nextjs</li>
       </ul>
     ),
   },
@@ -23,8 +24,9 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>SQI college of ICT</li>
+        <li>Cambridge computer Cnter</li>
+        <li>Federal University of Agriculture Abeokuta</li>
       </ul>
     ),
   },
@@ -52,9 +54,9 @@ const AboutSection = () => {
 
   return (
     <section className="text-white" id="about">
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src={computer} width={500} height={500} />
-        <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
+      <div className="md:grid md:grid-cols-2 gap-8 items-center py-4 px-2 xl:gap-16 sm:py-16 xl:px-16">
+        <Image src={computer} width={500} height={600} />
+        <div className="mt-4 md:mt-0 text-left flex flex-col h-full ">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
             I am a full stack web developer with a passion for creating
