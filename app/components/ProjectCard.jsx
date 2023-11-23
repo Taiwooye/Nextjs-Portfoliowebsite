@@ -7,12 +7,11 @@ const ProjectCard = ({imgUrl, title, description, gitUrl, previewUrl }) => {
   return (
     <div>
     <div
-      className="h-48 md:h-48 rounded-t-xl relative group bg-cover bg-no-repeat"
+      className="h-48 md:h-48 rounded-t-xl relative group bg-cover bg-center "
       style={{
         
         backgroundImage: `url(${imgUrl.src})`,
-         height: "500px",
-         
+         height:'500px'
         }}
       // style={{"background-image: `url(${imgUrl})`, height:400px"}}
     >
